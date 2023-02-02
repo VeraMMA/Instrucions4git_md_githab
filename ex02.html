@@ -1,0 +1,25 @@
+public class intern {
+    private static Scanner input = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        System.out.println("Написать программу вычисления произведения чисел от 1 до N.");
+        System.out.println("Введите число:");
+        int n, sum;
+
+        n = input.nextInt();
+        int t;
+
+        t = 1;
+        while (t <= n) {
+            System.out.println(t);
+            t = t + 1;
+        }
+        sum = 1;
+        t = 1;
+        while (t <= n) {
+            sum = sum * t;
+            t = t + 1;
+        }
+        System.out.println(sum);
+    }
+}
