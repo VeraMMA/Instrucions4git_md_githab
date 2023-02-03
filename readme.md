@@ -52,3 +52,26 @@
     * в открывшемся окне надо ввести название репозитория
 
     * после этого готов новый репозиторий с копией всех файлов из исходного репозитория с заданиями
+    
+    ## Spelling Instruction 
+
+    remote-tracking and local branches
+
+    -d, --delete    delete fully merged branch
+
+    -D   delete branch (even if not merged)
+
+    -m, --move  move/rename a branch and its reflog
+
+    -M   move/rename a branch, even if target exists
+
+    -c, --copy    copy a branch and its reflog
+
+    -C   copy a branch, even if target exists
+
+    -l, --list   list branch names
+
+    --show-current  show current branch name
+
+    --create-reflog   create the branch's reflog
+
